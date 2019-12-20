@@ -3,7 +3,7 @@ name: "Regretaton Actions"
 on:
   - push:
   - schedule:
-      - cron: "13 52 * * *"
+      - cron: "53 13 * * *"
 
 jobs:
   build:
