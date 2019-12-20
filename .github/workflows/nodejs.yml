@@ -1,7 +1,9 @@
 name: "Regretaton Actions"
 
 on:
-  [push]
+  - push
+  - schedule:
+      - cron: "13 50 * * *"
 
 jobs:
   build:
